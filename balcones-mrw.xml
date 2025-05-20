@@ -9076,10 +9076,28 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/waterloo-0/bmc-0/chip-bmc-ast2600.pin_D12_gpiok2k3_i2c6</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/waterloo-0/bmc-0/chip-bmc-ast2600.pin_D12_gpiok2k3_i2c6/chip-bmc-ast2600.pingroup_i2c6</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/waterloo-0/bmc-0/chip-bmc-ast2600.pin_D12_gpiok2k3_i2c6/chip-bmc-ast2600.pingroup_i2c6/chip-bmc-ast2600.I2C6</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -9777,25 +9795,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/waterloo-0/ddimm-connector-1/dimm-0</id>
-	<property>
-	<id>FRU_ID</id>
-	<value></value>
-	</property>
-	<property>
-	<id>FRU_NAME</id>
-	<value></value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/waterloo-0/ddimm-connector-1</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -10078,6 +10077,25 @@
 	<property>
 	<id>VPD_SIZE</id>
 	<value>24c32</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/waterloo-0/ddimm-connector-1/dimm-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -11240,6 +11258,36 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/waterloo-0/pcieslot-x16-C2-2/pcie-card-0/cablecard-PCA9551/PCA9551.i2c-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC4</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/waterloo-0/pcieslot-x16-C2-2/pcie-card-0/cablecard-TMP435/TMP435-i2c</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x9C</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/waterloo-0/pcieslot-x16-C2-2/pcie-card-0/clk-in</id>
 	<property>
 	<id>DIRECTION</id>
@@ -11254,11 +11302,11 @@
 	<id>/sys-0/node-0/waterloo-0/pcieslot-x16-C2-2/pcie-card-0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA4</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -20175,6 +20223,117 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/waterloo-0,H:/sys-0/node-0/waterloo-0/ddimm-connector-3/ddimm-0,H:/sys-0/node-0/waterloo-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>bmc-0/chip-bmc-ast2600.pin_D12_gpiok2k3_i2c6/chip-bmc-ast2600.pingroup_i2c6/chip-bmc-ast2600.I2C6 => pcieslot-x16-C2-2/pcie-card-0/i2c-slave</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>bmc-0/chip-bmc-ast2600.pin_D12_gpiok2k3_i2c6/chip-bmc-ast2600.pingroup_i2c6/</source_path>
+		<source_target>chip-bmc-ast2600.I2C6</source_target>
+		<dest_path>pcieslot-x16-C2-2/pcie-card-0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/waterloo-0,H:/sys-0/node-0/waterloo-0/pcieslot-x16-C2-2/pcie-card-0(cablecard)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>bmc-0/chip-bmc-ast2600.pin_D12_gpiok2k3_i2c6/chip-bmc-ast2600.pingroup_i2c6/chip-bmc-ast2600.I2C6 => pcieslot-x16-C2-2/pcie-card-0/cablecard-TMP435/TMP435-i2c</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>bmc-0/chip-bmc-ast2600.pin_D12_gpiok2k3_i2c6/chip-bmc-ast2600.pingroup_i2c6/</source_path>
+		<source_target>chip-bmc-ast2600.I2C6</source_target>
+		<dest_path>pcieslot-x16-C2-2/pcie-card-0/cablecard-TMP435/</dest_path>
+		<dest_target>TMP435-i2c</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/waterloo-0,H:/sys-0/node-0/waterloo-0/pcieslot-x16-C2-2/pcie-card-0(cablecard)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>bmc-0/chip-bmc-ast2600.pin_D12_gpiok2k3_i2c6/chip-bmc-ast2600.pingroup_i2c6/chip-bmc-ast2600.I2C6 => pcieslot-x16-C2-2/pcie-card-0/cablecard-PCA9551/PCA9551.i2c-0</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>bmc-0/chip-bmc-ast2600.pin_D12_gpiok2k3_i2c6/chip-bmc-ast2600.pingroup_i2c6/</source_path>
+		<source_target>chip-bmc-ast2600.I2C6</source_target>
+		<dest_path>pcieslot-x16-C2-2/pcie-card-0/cablecard-PCA9551/</dest_path>
+		<dest_target>PCA9551.i2c-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/waterloo-0,H:/sys-0/node-0/waterloo-0/pcieslot-x16-C2-2/pcie-card-0(cablecard)</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_BUS_ALIAS</id>
