@@ -14442,7 +14442,7 @@
 	</attribute>
 	<attribute>
 		<id>PHYP_SYSTEM_TYPE</id>
-		<default>0x50330000</default>
+		<default>0x50370000</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -14698,7 +14698,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_TYPE</id>
-		<default>ibm,Balcones</default>
+		<default>ibm,balcones</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_VDM_DISABLE</id>
