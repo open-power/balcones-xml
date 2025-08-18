@@ -13654,7 +13654,7 @@
 	</attribute>
 	<attribute>
 		<id>DDR5_DIMM_ERROR_TEMP_DEG_C</id>
-		<default>84</default>
+		<default>80</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_DIMM_READ_TIMEOUT_SEC</id>
@@ -13662,11 +13662,11 @@
 	</attribute>
 	<attribute>
 		<id>DDR5_DIMM_THROTTLE_TEMP_DEG_C</id>
-		<default>69</default>
+		<default>77</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_MC_DRAM_ERROR_TEMP_DEG_C</id>
-		<default>99</default>
+		<default>80</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_MC_DRAM_READ_TIMEOUT_SEC</id>
@@ -13674,11 +13674,11 @@
 	</attribute>
 	<attribute>
 		<id>DDR5_MC_DRAM_THROTTLE_TEMP_DEG_C</id>
-		<default>89</default>
+		<default>77</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_MC_EXT_ERROR_TEMP_DEG_C</id>
-		<default>99</default>
+		<default>80</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_MC_EXT_READ_TIMEOUT_SEC</id>
@@ -13686,11 +13686,11 @@
 	</attribute>
 	<attribute>
 		<id>DDR5_MC_EXT_THROTTLE_TEMP_DEG_C</id>
-		<default>89</default>
+		<default>77</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_MEMCTRL_ERROR_TEMP_DEG_C</id>
-		<default>99</default>
+		<default>96</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_MEMCTRL_READ_TIMEOUT_SEC</id>
@@ -13698,19 +13698,19 @@
 	</attribute>
 	<attribute>
 		<id>DDR5_MEMCTRL_THROTTLE_TEMP_DEG_C</id>
-		<default>89</default>
+		<default>91</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_N_MAX_MEM_POWER_WATTS</id>
-		<default>1885</default>
+		<default>104</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_N_PLUS_ONE_MAX_MEM_POWER_WATTS</id>
-		<default>1885</default>
+		<default>104</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_PMIC_ERROR_TEMP_DEG_C</id>
-		<default>95</default>
+		<default>80</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_PMIC_READ_TIMEOUT_SEC</id>
@@ -13718,7 +13718,7 @@
 	</attribute>
 	<attribute>
 		<id>DDR5_PMIC_THROTTLE_TEMP_DEG_C</id>
-		<default>85</default>
+		<default>77</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_VDN_UPLIFT_MV</id>
@@ -13750,7 +13750,7 @@
 	</attribute>
 	<attribute>
 		<id>DIMM_ERROR_TEMP_DEG_C</id>
-		<default>77</default>
+		<default>80</default>
 	</attribute>
 	<attribute>
 		<id>DIMM_POWER_UTIL_INTERMEDIATE_POINTS</id>
@@ -13762,7 +13762,7 @@
 	</attribute>
 	<attribute>
 		<id>DIMM_THROTTLE_TEMP_DEG_C</id>
-		<default>74</default>
+		<default>77</default>
 	</attribute>
 	<attribute>
 		<id>EXECUTION_PLATFORM</id>
@@ -13887,7 +13887,7 @@
 	</attribute>
 	<attribute>
 		<id>MAX_ALLOWED_DIMM_FREQ</id>
-		<default>3200,3200,3200,3200,3200</default>
+		<default>4000,4000,4000,4000,4000</default>
 	</attribute>
 	<attribute>
 		<id>MAX_DIMMS_PER_MBA_PORT</id>
@@ -13911,7 +13911,7 @@
 	</attribute>
 	<attribute>
 		<id>MC_DRAM_ERROR_TEMP_DEG_C</id>
-		<default>99</default>
+		<default>80</default>
 	</attribute>
 	<attribute>
 		<id>MC_DRAM_READ_TIMEOUT_SEC</id>
@@ -13931,7 +13931,7 @@
 	</attribute>
 	<attribute>
 		<id>MC_EXT_THROTTLE_TEMP_DEG_C</id>
-		<default>89</default>
+		<default>77</default>
 	</attribute>
 	<attribute>
 		<id>MEMCTRL_ERROR_TEMP_DEG_C</id>
@@ -14155,7 +14155,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_DIMM_SLOT_AIRFLOW</id>
-		<default>RIGHT_TO_LEFT</default>
+		<default>LEFT_TO_RIGHT</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_DRAM_2N_MODE</id>
@@ -14179,7 +14179,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_IDLE_POWER_CONTROL_REQUESTED</id>
-		<default>OFF</default>
+		<default>PD_AND_STR_CLK_STOP</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_IDLE_PSMODE_ENTER_STR_TIME</id>
@@ -14219,11 +14219,11 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_OCMB_PWR_INTERCEPT</id>
-		<default>0x2FFFFC0002060000,0x3FFFFC0002460000,0x4FFFFC0002990000,0xFFFFFC00047D0000,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
+		<default>0x35FFFC06028E0000,0x45FFFC0602C80000,0x55F7FC0602CF0000,0x55FFFC0603560000,0x35FFFC0802CF0000,0x45FFFC0803060000,0x55F7FC08030C0000,0x55FFFC0803890000,0x35FFFC0A033D0000,0x45FFFC0A03720000,0x55F7FC0A03740000,0x55FFFC0A03D70000,0xFFFFFC0004B00000,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_OCMB_PWR_SLOPE</id>
-		<default>0x2FFFFC0002440000,0x3FFFFC0002DD0000,0x4FFFFC0002DA0000,0xFFFFFC0002A80000,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
+		<default>0x35FFFC06029D0000,0x45FFFC0604890000,0x55F7FC0604750000,0x55FFFC0605EC0000,0x35FFFC08031B0000,0x45FFFC08056F0000,0x55F7FC08055B0000,0x55FFFC08077F0000,0x35FFFC0A03D10000,0x45FFFC0A068B0000,0x55F7FC0A06AD0000,0x55FFFC0A09D30000,0xFFFFFC0008FC0000,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_OCMB_SAFEMODE_UTIL_ARRAY</id>
@@ -14231,7 +14231,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_OCMB_THERMAL_MEMORY_POWER_LIMIT</id>
-		<default>0xFFFFFC0009C40000,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
+		<default>0xFFFFFC000DAC0000,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_OVERRIDE_THERM_SENSOR_USAGE</id>
@@ -14279,7 +14279,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_SUPPORTED_FREQ</id>
-		<default>1866,2133,2400,2667</default>
+		<default>1866,2133,2400,2666</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_TEMP_REFRESH_MODE</id>
@@ -14386,7 +14386,7 @@
 	</attribute>
 	<attribute>
 		<id>N_MAX_MEM_POWER_WATTS</id>
-		<default>1885</default>
+		<default>104</default>
 	</attribute>
 	<attribute>
 		<id>N_PLUS_ONE_BULK_POWER_LIMIT_WATTS</id>
@@ -14394,7 +14394,7 @@
 	</attribute>
 	<attribute>
 		<id>N_PLUS_ONE_MAX_MEM_POWER_WATTS</id>
-		<default>1885</default>
+		<default>104</default>
 	</attribute>
 	<attribute>
 		<id>OCC-LOAD-TIMEOUT</id>
@@ -14454,7 +14454,7 @@
 	</attribute>
 	<attribute>
 		<id>PMIC_ERROR_TEMP_DEG_C</id>
-		<default>95</default>
+		<default>80</default>
 	</attribute>
 	<attribute>
 		<id>PMIC_HEALTH_CHECK_DDR5_TIMER</id>
@@ -14470,7 +14470,7 @@
 	</attribute>
 	<attribute>
 		<id>PMIC_THROTTLE_TEMP_DEG_C</id>
-		<default>85</default>
+		<default>77</default>
 	</attribute>
 	<attribute>
 		<id>PM_HALT_FFDC_ENABLE</id>
