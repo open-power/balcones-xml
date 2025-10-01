@@ -14726,7 +14726,7 @@
 	</attribute>
 	<attribute>
 		<id>USE_11S_SPD</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>VDN_UPLIFT_MV</id>
